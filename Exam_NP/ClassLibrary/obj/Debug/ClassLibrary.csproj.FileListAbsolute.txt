@@ -1,0 +1,7 @@
+C:\Users\БекмухамбетА\Desktop\Exam_NP\ClassLibrary\bin\Debug\ClassLibrary.dll
+C:\Users\БекмухамбетА\Desktop\Exam_NP\ClassLibrary\bin\Debug\ClassLibrary.pdb
+C:\Users\БекмухамбетА\Desktop\Exam_NP\ClassLibrary\bin\Debug\Newtonsoft.Json.dll
+C:\Users\БекмухамбетА\Desktop\Exam_NP\ClassLibrary\bin\Debug\Newtonsoft.Json.xml
+C:\Users\БекмухамбетА\Desktop\Exam_NP\ClassLibrary\obj\Debug\ClassLibrary.csprojResolveAssemblyReference.cache
+C:\Users\БекмухамбетА\Desktop\Exam_NP\ClassLibrary\obj\Debug\ClassLibrary.dll
+C:\Users\БекмухамбетА\Desktop\Exam_NP\ClassLibrary\obj\Debug\ClassLibrary.pdb
