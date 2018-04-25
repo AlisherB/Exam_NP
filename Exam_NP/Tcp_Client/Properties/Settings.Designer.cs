@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ClassLibrary.Properties
+namespace Tcp_Client.Properties
 {
 
 

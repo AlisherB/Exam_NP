@@ -1,16 +1,16 @@
-﻿namespace ClassLibrary
+﻿namespace Tcp_Client
 {
     partial class MainForm
     {
         /// <summary>
-        /// Обязательная переменная конструктора.
+        /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
-        /// Освободить все используемые ресурсы.
+        /// Clean up any resources being used.
         /// </summary>
-        /// <param name="disposing">истинно, если управляемый ресурс должен быть удален; иначе ложно.</param>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -20,147 +20,138 @@
             base.Dispose(disposing);
         }
 
-        #region Код, автоматически созданный конструктором форм Windows
+        #region Windows Form Designer generated code
 
         /// <summary>
-        /// Требуемый метод для поддержки конструктора — не изменяйте 
-        /// содержимое этого метода с помощью редактора кода.
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
         {
-            this.login_textBox = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.login_button = new System.Windows.Forms.Button();
-            this.logout_button = new System.Windows.Forms.Button();
-            this.chat_richTextBox = new System.Windows.Forms.RichTextBox();
-            this.sendText_button = new System.Windows.Forms.Button();
-            this.message_textBox = new System.Windows.Forms.TextBox();
-            this.sendImage_button = new System.Windows.Forms.Button();
-            this.chat_label = new System.Windows.Forms.Label();
+            this.splitContainer1 = new System.Windows.Forms.SplitContainer();
+            this.sendImage_btn = new System.Windows.Forms.Button();
+            this.sendText_btn = new System.Windows.Forms.Button();
+            this.chat_textBox = new System.Windows.Forms.TextBox();
+            this.ofd = new System.Windows.Forms.OpenFileDialog();
+            this.richTextBox = new System.Windows.Forms.RichTextBox();
+            this.msg_textBox = new System.Windows.Forms.TextBox();
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
+            this.splitContainer1.Panel1.SuspendLayout();
+            this.splitContainer1.Panel2.SuspendLayout();
+            this.splitContainer1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // login_textBox
+            // splitContainer1
             // 
-            this.login_textBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.login_textBox.Location = new System.Drawing.Point(61, 15);
-            this.login_textBox.Name = "login_textBox";
-            this.login_textBox.Size = new System.Drawing.Size(212, 24);
-            this.login_textBox.TabIndex = 0;
+            this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainer1.Location = new System.Drawing.Point(0, 0);
+            this.splitContainer1.Name = "splitContainer1";
             // 
-            // label1
+            // splitContainer1.Panel1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(12, 15);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(43, 17);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Login";
+            this.splitContainer1.Panel1.Controls.Add(this.msg_textBox);
+            this.splitContainer1.Panel1.Controls.Add(this.sendImage_btn);
+            this.splitContainer1.Panel1.Controls.Add(this.sendText_btn);
+            this.splitContainer1.Panel1.Controls.Add(this.chat_textBox);
             // 
-            // login_button
+            // splitContainer1.Panel2
             // 
-            this.login_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.login_button.Location = new System.Drawing.Point(289, 15);
-            this.login_button.Name = "login_button";
-            this.login_button.Size = new System.Drawing.Size(75, 24);
-            this.login_button.TabIndex = 2;
-            this.login_button.Text = "Вход";
-            this.login_button.UseVisualStyleBackColor = true;
-            this.login_button.Click += new System.EventHandler(this.Login_button_Click);
+            this.splitContainer1.Panel2.Controls.Add(this.richTextBox);
+            this.splitContainer1.Size = new System.Drawing.Size(501, 315);
+            this.splitContainer1.SplitterDistance = 243;
+            this.splitContainer1.TabIndex = 1;
             // 
-            // logout_button
+            // sendImage_btn
             // 
-            this.logout_button.Enabled = false;
-            this.logout_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.logout_button.Location = new System.Drawing.Point(377, 15);
-            this.logout_button.Name = "logout_button";
-            this.logout_button.Size = new System.Drawing.Size(75, 24);
-            this.logout_button.TabIndex = 3;
-            this.logout_button.Text = "Выход";
-            this.logout_button.UseVisualStyleBackColor = true;
-            this.logout_button.Click += new System.EventHandler(this.Logout_button_Click);
+            this.sendImage_btn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.sendImage_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.sendImage_btn.Location = new System.Drawing.Point(126, 93);
+            this.sendImage_btn.Name = "sendImage_btn";
+            this.sendImage_btn.Size = new System.Drawing.Size(102, 61);
+            this.sendImage_btn.TabIndex = 2;
+            this.sendImage_btn.Text = "Отправить фото";
+            this.sendImage_btn.UseVisualStyleBackColor = true;
             // 
-            // chat_richTextBox
+            // sendText_btn
             // 
-            this.chat_richTextBox.Location = new System.Drawing.Point(15, 158);
-            this.chat_richTextBox.Name = "chat_richTextBox";
-            this.chat_richTextBox.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Vertical;
-            this.chat_richTextBox.Size = new System.Drawing.Size(437, 153);
-            this.chat_richTextBox.TabIndex = 4;
-            this.chat_richTextBox.Text = "";
+            this.sendText_btn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.sendText_btn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.sendText_btn.Location = new System.Drawing.Point(12, 93);
+            this.sendText_btn.Name = "sendText_btn";
+            this.sendText_btn.Size = new System.Drawing.Size(102, 61);
+            this.sendText_btn.TabIndex = 1;
+            this.sendText_btn.Text = "Отправить";
+            this.sendText_btn.UseVisualStyleBackColor = true;
+            this.sendText_btn.Click += new System.EventHandler(this.SendText_btn_Click);
             // 
-            // sendText_button
+            // chat_textBox
             // 
-            this.sendText_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.sendText_button.Location = new System.Drawing.Point(316, 52);
-            this.sendText_button.Name = "sendText_button";
-            this.sendText_button.Size = new System.Drawing.Size(136, 30);
-            this.sendText_button.TabIndex = 5;
-            this.sendText_button.Text = "Отправить";
-            this.sendText_button.UseVisualStyleBackColor = true;
-            this.sendText_button.Click += new System.EventHandler(this.SendText_button_Click);
+            this.chat_textBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.chat_textBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.chat_textBox.Location = new System.Drawing.Point(12, 175);
+            this.chat_textBox.Multiline = true;
+            this.chat_textBox.Name = "chat_textBox";
+            this.chat_textBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.chat_textBox.Size = new System.Drawing.Size(216, 140);
+            this.chat_textBox.TabIndex = 0;
             // 
-            // message_textBox
+            // ofd
             // 
-            this.message_textBox.Location = new System.Drawing.Point(15, 52);
-            this.message_textBox.Multiline = true;
-            this.message_textBox.Name = "message_textBox";
-            this.message_textBox.Size = new System.Drawing.Size(295, 68);
-            this.message_textBox.TabIndex = 6;
+            this.ofd.FileName = "openFileDialog1";
             // 
-            // sendImage_button
+            // richTextBox
             // 
-            this.sendImage_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.sendImage_button.Location = new System.Drawing.Point(316, 90);
-            this.sendImage_button.Name = "sendImage_button";
-            this.sendImage_button.Size = new System.Drawing.Size(136, 30);
-            this.sendImage_button.TabIndex = 7;
-            this.sendImage_button.Text = "Отправить фото";
-            this.sendImage_button.UseVisualStyleBackColor = true;
-            this.sendImage_button.Click += new System.EventHandler(this.SendImage_button_Click);
+            this.richTextBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.richTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.richTextBox.Location = new System.Drawing.Point(0, 0);
+            this.richTextBox.Name = "richTextBox";
+            this.richTextBox.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Vertical;
+            this.richTextBox.Size = new System.Drawing.Size(254, 315);
+            this.richTextBox.TabIndex = 0;
+            this.richTextBox.Text = "";
             // 
-            // chat_label
+            // msg_textBox
             // 
-            this.chat_label.AutoSize = true;
-            this.chat_label.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.chat_label.Location = new System.Drawing.Point(12, 138);
-            this.chat_label.Name = "chat_label";
-            this.chat_label.Size = new System.Drawing.Size(37, 17);
-            this.chat_label.TabIndex = 8;
-            this.chat_label.Text = "Chat";
+            this.msg_textBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.msg_textBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.msg_textBox.Location = new System.Drawing.Point(12, 12);
+            this.msg_textBox.Multiline = true;
+            this.msg_textBox.Name = "msg_textBox";
+            this.msg_textBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.msg_textBox.Size = new System.Drawing.Size(216, 62);
+            this.msg_textBox.TabIndex = 3;
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(466, 327);
-            this.Controls.Add(this.chat_label);
-            this.Controls.Add(this.sendImage_button);
-            this.Controls.Add(this.message_textBox);
-            this.Controls.Add(this.sendText_button);
-            this.Controls.Add(this.chat_richTextBox);
-            this.Controls.Add(this.logout_button);
-            this.Controls.Add(this.login_button);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.login_textBox);
+            this.ClientSize = new System.Drawing.Size(501, 315);
+            this.Controls.Add(this.splitContainer1);
+            this.MaximumSize = new System.Drawing.Size(517, 354);
+            this.MinimumSize = new System.Drawing.Size(517, 354);
             this.Name = "MainForm";
-            this.Text = "MainForm";
+            this.Text = "Chat";
+            this.splitContainer1.Panel1.ResumeLayout(false);
+            this.splitContainer1.Panel1.PerformLayout();
+            this.splitContainer1.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
+            this.splitContainer1.ResumeLayout(false);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.TextBox login_textBox;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button login_button;
-        private System.Windows.Forms.Button logout_button;
-        private System.Windows.Forms.RichTextBox chat_richTextBox;
-        private System.Windows.Forms.Button sendText_button;
-        private System.Windows.Forms.TextBox message_textBox;
-        private System.Windows.Forms.Button sendImage_button;
-        private System.Windows.Forms.Label chat_label;
+        private System.Windows.Forms.SplitContainer splitContainer1;
+        private System.Windows.Forms.Button sendImage_btn;
+        private System.Windows.Forms.Button sendText_btn;
+        private System.Windows.Forms.TextBox chat_textBox;
+        private System.Windows.Forms.OpenFileDialog ofd;
+        private System.Windows.Forms.RichTextBox richTextBox;
+        private System.Windows.Forms.TextBox msg_textBox;
     }
 }
-

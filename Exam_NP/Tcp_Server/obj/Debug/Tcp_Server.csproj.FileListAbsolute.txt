@@ -1,0 +1,13 @@
+D:\Академия ШАГ\Exam_NP\Tcp_Server\obj\Debug\Tcp_Server.csproj.CoreCompileInputs.cache
+D:\Академия ШАГ\Exam_NP\Tcp_Server\bin\Debug\Tcp_Server.exe.config
+D:\Академия ШАГ\Exam_NP\Tcp_Server\bin\Debug\Tcp_Server.exe
+D:\Академия ШАГ\Exam_NP\Tcp_Server\bin\Debug\Tcp_Server.pdb
+D:\Академия ШАГ\Exam_NP\Tcp_Server\bin\Debug\Newtonsoft.Json.dll
+D:\Академия ШАГ\Exam_NP\Tcp_Server\bin\Debug\Tcp_Client.exe
+D:\Академия ШАГ\Exam_NP\Tcp_Server\bin\Debug\Tcp_Client.pdb
+D:\Академия ШАГ\Exam_NP\Tcp_Server\bin\Debug\Tcp_Client.exe.config
+D:\Академия ШАГ\Exam_NP\Tcp_Server\bin\Debug\Newtonsoft.Json.xml
+D:\Академия ШАГ\Exam_NP\Tcp_Server\obj\Debug\Tcp_Server.csprojResolveAssemblyReference.cache
+D:\Академия ШАГ\Exam_NP\Tcp_Server\obj\Debug\Tcp_Server.csproj.CopyComplete
+D:\Академия ШАГ\Exam_NP\Tcp_Server\obj\Debug\Tcp_Server.exe
+D:\Академия ШАГ\Exam_NP\Tcp_Server\obj\Debug\Tcp_Server.pdb
